@@ -14,13 +14,9 @@ body {
     box-sizing: border-box;
   }
 
-/* Mobile */
-
-@media screen and (max-width: 830px) {
     .header-section {
         background: rgb(120,87,255);
         background: linear-gradient(180deg, rgba(120,87,255,1) 0%, rgba(46,43,233,1) 100%);
-        margin-bottom: 24px;
         border-radius: 0px 0px 32px 32px;
         display: grid;
         place-items: center;
@@ -39,7 +35,7 @@ body {
         font-size: 56px;
     }
 
-    .total-result {
+    .total-result { /* Circle Background Gradient*/
         background: rgb(78,33,202);
         background: linear-gradient(180deg, rgba(78,33,202,1) 0%, rgba(36,33,202,0) 100%);
         padding: 26px 40px;
@@ -68,14 +64,14 @@ body {
 
     .score-summary {
         padding: 0px 32px;
-        margin-bottom: 64px;
+        margin-bottom: 40px;
     }
 
 
     .score-summary h4 { /* Summary Header */
         font-size: 18px;
         color: #303B5A;
-        margin-bottom: 24px;
+        margin: 32px 0px;
     }
 
     .cards { /* All cards style */
@@ -191,138 +187,64 @@ body {
     footer .div-line {
         padding: 0px 8px;
     }
-}
 
 
 /* Desktop */
 @media screen and (min-width: 830px) {
-    /* Score Summary */
 
-    .score-summary {
-        padding: 0px 32px;
-        margin-bottom: 64px;
-    }
-
-
-    .score-summary h4 { /* Summary Header */
-        font-size: 18px;
-        color: #303B5A;
-        margin-bottom: 24px;
-    }
-
-    .cards { /* All cards style */
-        display: flex;
-        align-items: center;
-        justify-content: space-between;        
-        padding: 16px;
-        margin: 16px 0px;
-        border-radius: 8px;
-        font-size: 16px;
-        font-weight: 700;        
-    }
-
-    .icon-label { /* Card icon and label alignment*/
-        display: inline-flex;           
-    }
-
-    .icon-label img { /* All Cards icon */        
-        padding-right: 12px;
-    }
-
-    .score-data h5{ /* Overall score /100 on cards */
-        color: #857BFF;
-        font-weight: 500;
-        font-size: 17px;
-
-    }
-
-    .bold-score { /* Bold score on cards */
-        color: #303B5A;
-        font-weight: 800;
-    }
-
-/* Reaction Card Style */
-    .reaction-card { 
-        background-color: rgba(225,87,87,0.08);
-    }
-
-    .reaction-card p {
-        color: rgb(225,87,87);
-    } 
-/* Reaction Card Style END */
-
-
-/* Memory Card Style */
-    .memory-card { 
-        background-color: rgba(225,176,31,0.08);
-    }
-
-    .memory-card p {
-        color: rgb(225,176,31);
-    } 
-/* Memory Card Style END */
-
-
-/* Verbal Card Style */
-    .verbal-card { 
-        background-color: rgba(0,189,145,0.08);
-    }
-
-    .verbal-card p {
-        color: rgb(0,189,145);
-    } 
-/* Verbal Card Style END */
-
-
-/* Visual Card Style */
-    .visual-card { 
-        background-color: rgba(17,37,212,0.08);
-    }
-
-    .visual-card p {
-        color: rgb(17,37,212);
-    } 
-/* Visual Card Style END */
-
-/* Button Style */
-    .button-dark-blue-background {
-        background-color: rgb(48,59,90);
-        color: white;
-        font-weight: 500;
-        padding: 16px;
-        border-radius: 32px;
-        margin-top: 8px;
-        width: 100%;
-        font-size: 18px;
-        outline: none;
-        border: none;
-    }
-
-    a {
-        text-decoration: none;
-        color: white;
-        outline: none;
-    }
-
-    footer {
-        color: rgb(48,59,90) ;
-        font-size: 14px;
-        display: flex;
+    body {
+        display: grid;
         justify-content: center;
-        margin-bottom: 32px;
+        margin-top: 64px;  
     }
 
-    footer a {
-        color:  rgb(48,59,90);
+    .score-container {
+        display: flex;
+        justify-content: center;    
+        flex-wrap: wrap;   
     }
 
-    a:hover {
-        text-decoration: underline;
+    .score-background {
+        display: inline-block;
+        justify-content: center;
+        background-color: white;
+        box-shadow: 0px 4px 32px rgba(200,199,255,0.4);
+        margin-bottom: 64px;
+        border-radius:32px;
+        max-height: 512px;
     }
 
-    footer .div-line {
-        padding: 0px 8px;
+    .header-section {
+        border-radius: 32px;
+        max-width: 360px;
     }
-}
+
+
+/* Score Summary Section */
+    .score-summary {        
+        min-width: 360px;
+    }
+
+/* Button Desktop */
+    .button-dark-blue-background {        
+        margin-top: 24px;       
+    
+    }
+/* Button Desktop HOVER*/
+  
+    .button-dark-blue-background:hover {        
+        margin-top: 24px;  
+        text-decoration: none;
+        background: rgb(120,87,255);
+        background: linear-gradient(180deg, rgba(120,87,255,1) 0%, rgba(46,43,233,1) 100%);
+        cursor: pointer;   
+    }
+/* Links Desktop HOVER*/   
+    .button-dark-blue-background a:hover {
+        text-decoration: none;
+    }
+
+    
+
 
 }
