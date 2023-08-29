@@ -63,29 +63,266 @@ body {
         font-weight: 700;
     }
 
+
+/* Score Summary */
+
+    .score-summary {
+        padding: 0px 32px;
+        margin-bottom: 64px;
+    }
+
+
     .score-summary h4 { /* Summary Header */
         font-size: 18px;
         color: #303B5A;
+        margin-bottom: 24px;
     }
 
-    .icon-label {
+    .cards { /* All cards style */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;        
+        padding: 16px;
+        margin: 16px 0px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 700;        
+    }
+
+    .icon-label { /* Card icon and label alignment*/
         display: inline-flex;           
     }
 
-    .icon-label img {
-        height: 18px;
+    .icon-label img { /* All Cards icon */        
         padding-right: 12px;
     }
 
-    .card {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background-color: #FEF6F7;
-        padding: 16px;
-        margin: 24px 0px;
-        border-radius: 8px;
+    .score-data h5{ /* Overall score /100 on cards */
+        color: #857BFF;
+        font-weight: 500;
+        font-size: 17px;
+
     }
 
+    .bold-score { /* Bold score on cards */
+        color: #303B5A;
+        font-weight: 800;
+    }
+
+/* Reaction Card Style */
+    .reaction-card { 
+        background-color: rgba(225,87,87,0.08);
+    }
+
+    .reaction-card p {
+        color: rgb(225,87,87);
+    } 
+/* Reaction Card Style END */
+
+
+/* Memory Card Style */
+    .memory-card { 
+        background-color: rgba(225,176,31,0.08);
+    }
+
+    .memory-card p {
+        color: rgb(225,176,31);
+    } 
+/* Memory Card Style END */
+
+
+/* Verbal Card Style */
+    .verbal-card { 
+        background-color: rgba(0,189,145,0.08);
+    }
+
+    .verbal-card p {
+        color: rgb(0,189,145);
+    } 
+/* Verbal Card Style END */
+
+
+/* Visual Card Style */
+    .visual-card { 
+        background-color: rgba(17,37,212,0.08);
+    }
+
+    .visual-card p {
+        color: rgb(17,37,212);
+    } 
+/* Visual Card Style END */
+
+/* Button Style */
+    .button-dark-blue-background {
+        background-color: rgb(48,59,90);
+        color: white;
+        font-weight: 500;
+        padding: 16px;
+        border-radius: 32px;
+        margin-top: 8px;
+        width: 100%;
+        font-size: 18px;
+        outline: none;
+        border: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        outline: none;
+    }
+
+    footer {
+        color: rgb(48,59,90) ;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 32px;
+    }
+
+    footer a {
+        color:  rgb(48,59,90);
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    footer .div-line {
+        padding: 0px 8px;
+    }
+}
+
+
+/* Desktop */
+@media screen and (min-width: 830px) {
+    /* Score Summary */
+
+    .score-summary {
+        padding: 0px 32px;
+        margin-bottom: 64px;
+    }
+
+
+    .score-summary h4 { /* Summary Header */
+        font-size: 18px;
+        color: #303B5A;
+        margin-bottom: 24px;
+    }
+
+    .cards { /* All cards style */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;        
+        padding: 16px;
+        margin: 16px 0px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 700;        
+    }
+
+    .icon-label { /* Card icon and label alignment*/
+        display: inline-flex;           
+    }
+
+    .icon-label img { /* All Cards icon */        
+        padding-right: 12px;
+    }
+
+    .score-data h5{ /* Overall score /100 on cards */
+        color: #857BFF;
+        font-weight: 500;
+        font-size: 17px;
+
+    }
+
+    .bold-score { /* Bold score on cards */
+        color: #303B5A;
+        font-weight: 800;
+    }
+
+/* Reaction Card Style */
+    .reaction-card { 
+        background-color: rgba(225,87,87,0.08);
+    }
+
+    .reaction-card p {
+        color: rgb(225,87,87);
+    } 
+/* Reaction Card Style END */
+
+
+/* Memory Card Style */
+    .memory-card { 
+        background-color: rgba(225,176,31,0.08);
+    }
+
+    .memory-card p {
+        color: rgb(225,176,31);
+    } 
+/* Memory Card Style END */
+
+
+/* Verbal Card Style */
+    .verbal-card { 
+        background-color: rgba(0,189,145,0.08);
+    }
+
+    .verbal-card p {
+        color: rgb(0,189,145);
+    } 
+/* Verbal Card Style END */
+
+
+/* Visual Card Style */
+    .visual-card { 
+        background-color: rgba(17,37,212,0.08);
+    }
+
+    .visual-card p {
+        color: rgb(17,37,212);
+    } 
+/* Visual Card Style END */
+
+/* Button Style */
+    .button-dark-blue-background {
+        background-color: rgb(48,59,90);
+        color: white;
+        font-weight: 500;
+        padding: 16px;
+        border-radius: 32px;
+        margin-top: 8px;
+        width: 100%;
+        font-size: 18px;
+        outline: none;
+        border: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        outline: none;
+    }
+
+    footer {
+        color: rgb(48,59,90) ;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 32px;
+    }
+
+    footer a {
+        color:  rgb(48,59,90);
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    footer .div-line {
+        padding: 0px 8px;
+    }
+}
 
 }
