@@ -45,7 +45,7 @@ body {
 
     .total-result p {
         color: #857BFF;
-        font-weight: 700;
+        font-weight: 500;
     }
 
     .header-section h3 { /* Great Text*/
@@ -56,7 +56,7 @@ body {
 
     .header-section p { /* Paragraph below Great header */
         color: #857BFF;
-        font-weight: 700;
+        font-weight: 500;
     }
 
 
