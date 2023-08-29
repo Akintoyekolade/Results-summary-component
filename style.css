@@ -5,6 +5,8 @@
 
 body {
     font-family: 'HankenGrotesk', sans-serif;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 /* CSS Reset */
