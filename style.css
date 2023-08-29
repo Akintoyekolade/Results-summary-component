@@ -5,8 +5,6 @@
 
 body {
     font-family: 'HankenGrotesk', sans-serif;
-    padding-left: 16px;
-    padding-right: 16px;
 }
 
 /* CSS Reset */
@@ -176,6 +174,7 @@ body {
         display: flex;
         justify-content: center;
         margin-bottom: 32px;
+        padding: 0px 16px;
     }
 
     footer a {
