@@ -220,10 +220,30 @@ body {
         max-width: 360px;
     }
 
+    .header-section h1 {
+        font-size: 24px;
+    }
+
+    .total-result { /* Circle Background Gradient*/
+        background: rgb(78,33,202);
+        background: linear-gradient(180deg, rgba(78,33,202,1) 0%, rgba(36,33,202,0) 100%);
+        padding: 46px 60px;
+        margin: 22px 0px;
+        border-radius: 50%;
+    }
+
+    .total-result h2 {
+        font-size: 72px;
+    }
+
 
 /* Score Summary Section */
     .score-summary {        
         min-width: 360px;
+    }
+
+    .score-summary h4 {
+        font-size: 24px;
     }
 
 /* Button Desktop */
