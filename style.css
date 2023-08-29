@@ -150,6 +150,8 @@ body {
 
 /* Button Style */
     .button-dark-blue-background {
+        display: inline-block;   
+        text-align: center;     
         background-color: rgb(48,59,90);
         color: white;
         font-weight: 500;
@@ -158,8 +160,6 @@ body {
         margin-top: 8px;
         width: 100%;
         font-size: 18px;
-        outline: none;
-        border: none;
     }
 
     a {
