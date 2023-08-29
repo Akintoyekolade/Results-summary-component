@@ -94,7 +94,7 @@ body {
     }
 
     .score-data h5{ /* Overall score /100 on cards */
-        color: #857BFF;
+        color: rgb(48, 59, 90, 0.5);
         font-weight: 500;
         font-size: 17px;
 
@@ -107,7 +107,7 @@ body {
 
 /* Reaction Card Style */
     .reaction-card { 
-        background-color: rgba(225,87,87,0.08);
+        background-color: rgba(225,87,87,0.05);
     }
 
     .reaction-card p {
@@ -118,7 +118,7 @@ body {
 
 /* Memory Card Style */
     .memory-card { 
-        background-color: rgba(225,176,31,0.08);
+        background-color: rgba(225,176,31,0.05);
     }
 
     .memory-card p {
@@ -129,7 +129,7 @@ body {
 
 /* Verbal Card Style */
     .verbal-card { 
-        background-color: rgba(0,189,145,0.08);
+        background-color: rgba(0,189,145,0.05);
     }
 
     .verbal-card p {
@@ -140,7 +140,7 @@ body {
 
 /* Visual Card Style */
     .visual-card { 
-        background-color: rgba(17,37,212,0.08);
+        background-color: rgba(17,37,212,0.05);
     }
 
     .visual-card p {
