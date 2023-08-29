@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+    font-family: 'HankenGrotesk', sans-serif;
+}
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* Mobile */
+
+@media screen and (max-width: 830px) {
+    .header-section {
+        background: rgb(120,87,255);
+        background: linear-gradient(180deg, rgba(120,87,255,1) 0%, rgba(46,43,233,1) 100%);
+        margin-bottom: 24px;
+        border-radius: 0px 0px 32px 32px;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        color: white;
+    }
+
+}
